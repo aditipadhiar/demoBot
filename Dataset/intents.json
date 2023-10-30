@@ -1,0 +1,391 @@
+{
+   "intents":[
+ {
+   "tag": "greeting",
+   "patterns": [
+      "Hi",
+      "Hi there!",
+      "How are you?",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "What's up",
+      "how are ya",
+      "heyy",
+      "whatsup",
+      "??? ??? ??"
+   ],
+   "responses": [
+      "Hello!",
+      "Good to see you again!",
+      "Hi there, how can I help?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "goodbye",
+   "patterns": [
+      "cya",
+      "see you",
+      "bye bye",
+      "See you later",
+      "Goodbye",
+      "I am Leaving",
+      "Bye",
+      "Have a Good day",
+      "talk to you later",
+      "ttyl",
+      "i got to go",
+      "gtg"
+   ],
+   "responses": [
+      "Sad to see you go :(",
+      "Talk to you later",
+      "Goodbye!",
+      "Come back soon"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "creator",
+   "patterns": [
+      "what is the name of your developers",
+      "what is the name of your creators",
+      "what is the name of the developers",
+      "what is the name of the creators",
+      "who created you",
+      "your developers",
+      "your creators",
+      "who are your developers",
+      "developers",
+      "you are made by",
+      "you are made by whom",
+      "who created you",
+      "who create you",
+      "creators",
+      "who made you",
+      "who designed you"
+   ],
+   "responses": [
+      "Company employees"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "name",
+   "patterns": [
+      "name",
+      "your name",
+      "do you have a name",
+      "what are you called",
+      "what is your name",
+      "what should I call you",
+      "whats your name?",
+      "what are you",
+      "who are you",
+      "who is this",
+      "what am i chatting to",
+      "who am i taking to",
+      "what are you"
+   ],
+   "responses": [
+      "You can call me Mind Reader.",
+      "I'm Mind Reader",
+      "I am a Chatbot.",
+      "I am your helper"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hours",
+   "patterns": [
+      "timing of company",
+      "what is company timing",
+      "working days",
+      "when are you guys open",
+      "what are your hours",
+      "hours of operation",
+      "when is the company open",
+      "company timing",
+      "what about company timing",
+      "is company open on saturday",
+      "tell something about company timing",
+      "what is the company  hours",
+      "when should i come to company",
+      "when should i attend company",
+      "what is my company time",
+      "company timing",
+      "timing company"
+   ],
+   "responses": [
+      "Company is open 9am-8pm Monday-Saturday!"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "number",
+   "patterns": [
+      "more info",
+      "contact info",
+      "how to contact company",
+      "company telephone number",
+      "company number",
+      "What is your contact no",
+      "company number?",
+      "how to call you",
+      "company phone no?",
+      "how can i contact you",
+      "Can i get your phone number",
+      "how can i call you",
+      "phone number",
+      "phone no",
+      "call"
+   ],
+   "responses": [
+      "You can contact at:  072840 51159 and Email at: contact@voidek.in"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "Language",
+   "patterns": [
+      "list of langauges",
+      "list of language offered",
+      "list of language offered in",
+      "what are the language offered in your company?",
+      "languages?",
+      "languages offered",
+      "languages offered in your IT company",
+      "languages you offer",
+      "branches?",
+      "languages available at company?",
+      "what are the languages in company?",
+      "what are languages in company?",
+      "languages available in company?",
+      "can you tell me the languages available in company?",
+      "PHP?",
+      "Dotnet?",
+      "Data Science?",
+      "Machine learning?",
+      "Artificial Intelligence?",
+      "Java?",
+      "NodeJS?",
+      "AI/Ml"
+   ],
+   "responses": [
+      "Our company offers PHP Development, Wordpress Development, ASP.NET MVC, Machine learning, .Net core, Moodle LMS, CodeIgniter Development, Website Speed Optimization."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "location",
+   "patterns": [
+      "where is the company located",
+      "company is located at",
+      "where is company",
+      "where is company located",
+      "address of company",
+      "how to reach company",
+      "company location",
+      "company address",
+      "wheres the company",
+      "how can I reach company",
+      "whats is the company address",
+      "what is the address of company",
+      "address",
+      "location"
+   ],
+   "responses": [
+      "<a target=\"_blank\" href=\"https://goo.gl/maps/vMsEj234zzjxTPpc9\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hostel",
+   "patterns": [
+      "hostel facility",
+      "hostel servive",
+      "hostel location",
+      "hostel address",
+      "hostel facilities",
+      "hostel fees",
+      "Does company provide hostel",
+      "Is there any hostel",
+      "Where is hostel",
+      "do you have hostel",
+      "do you guys have hostel",
+      "hostel",
+      "hostel capacity",
+      "what is the hostel fee",
+      "how to get in hostel",
+      "what is the hostel address",
+      "how far is hostel from company",
+      "hostel company distance",
+      "where is the hostel",
+      "how big is the hostel",
+      "distance between company and hostel",
+      "distance between hostel and company"
+   ],
+   "responses": [
+      "No Hostel"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "event",
+   "patterns": [
+      "events organised",
+      "list of events",
+      "list of events organised in company",
+      "list of events conducted in company",
+      "What events are conducted in company",
+      "Are there any event held at company",
+      "Events?",
+      "functions",
+      "what are the events",
+      "tell me about events",
+      "what about events"
+   ],
+   "responses": [
+      "For event detail held at our company please visit <a target=\"_blank\" href=\"https://voidek.in/activities/\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "Interview",
+   "patterns": [
+      "what is the process of Interview",
+      "what is the interview process",
+      "How to give interview in your company",
+      "What is the process for interview",
+      "Interview",
+      "Interview process"
+   ],
+   "responses": [
+      "Application can also be submitted online through the company's  <a target=\"_blank\" href=\"https://voidek.in/career/\">website</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "facilities",
+   "patterns": [
+      "What facilities company provide",
+      "Company facility",
+      "What are company facilities",
+      "facilities",
+      "facilities provided"
+   ],
+   "responses": [
+      "Our company provides fully AC department with internet connection, smart PC, 1 hour lunch break, flexible working hour, 12 Paid leave per year and provide public holidays followed with diwali vacation."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "uniform",
+   "patterns": [
+      "company dress code",
+      "company dresscode",
+      "what is the uniform",
+      "can we wear casuals",
+      "Does company have an uniform",
+      "Is there any uniform",
+      "uniform",
+      "what about uniform",
+      "do we have to wear uniform"
+   ],
+   "responses": [
+      "Company provide uniform T-shirt for wednesday and saturday. Except that day you can wear casuals."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "random",
+   "patterns": [
+      "I love you",
+      "Will you marry me",
+      "Do you love me"
+   ],
+   "responses": [
+      "I am not program for this, please ask appropriate query"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "swear",
+   "patterns": [
+      "fuck",
+      "bitch",
+      "shut up",
+      "hell",
+      "stupid",
+      "idiot",
+      "dumb ass",
+      "asshole",
+      "fucker"
+   ],
+   "responses": [
+      "please use appropriate language",
+      "Maintaining decency would be appreciated"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "vacation",
+   "patterns": [
+      "holidays",
+      "when is the holidays",
+      "list of holidays",
+      "Holiday in these year",
+      "holiday list",
+      "about vacations",
+      "about holidays",
+      "When is vacation",     
+      "When is holidays",
+      "how long will be the vacation"
+   ],
+   "responses": [
+      "Holiday list will given to you by company after you join our company. There will be half working day on every odd saturday. 3rd saturday will be full day off. Even saturdays will be full day working day."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "salutaion",
+   "patterns": [
+      "okk",
+      "okie",
+      "nice work",
+      "well done",
+      "good job",
+      "thanks for the help",
+      "Thank You",
+      "its ok",
+      "Thanks",
+      "Good work",
+      "k",
+      "ok",
+      "okay"
+   ],
+   "responses": [
+      "I am glad I helped you",
+      "welcome, anything else i can assist you with?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "task",
+   "patterns": [
+      "what can you do",
+      "what are the thing you can do",
+      "things you can do",
+      "what can u do for me",
+      "how u can help me",
+      "why i should use you"
+   ],
+   "responses": [
+      "I can answer to low-intermediate questions regarding company",
+      "You can ask me questions regarding company, and i will try to answer them"
+   ],
+   "context_set": ""
+}
+]
+}
